@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:v="clr-namespace:ButtonNavigation.Views"
+    xmlns:vm="clr-namespace:ButtonNavigation.ViewModels">
+
+    <DataTemplate DataType="{x:Type vm:MusicViewModel}">
+        <v:MusicControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:MovieViewModel}">
+        <v:MovieControl />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:GameViewModel}">
+        <v:GameControl />
+    </DataTemplate>
+
+</ResourceDictionary>
