@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmSampleTests", "MvvmSamp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComboBoxNavigation", "ComboBoxNavigation\ComboBoxNavigation.csproj", "{199FCF39-3AFF-4354-A63D-E40EC24B93E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonNavigation", "ButtonNavigation\ButtonNavigation.csproj", "{92D963B7-F459-49A5-960E-74EE6CF3EDFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonNavigation", "ButtonNavigation\ButtonNavigation.csproj", "{92D963B7-F459-49A5-960E-74EE6CF3EDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowManagerService", "WindowManagerService\WindowManagerService.csproj", "{80015C38-927D-48CB-99BA-A95BEBF782D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{92D963B7-F459-49A5-960E-74EE6CF3EDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D963B7-F459-49A5-960E-74EE6CF3EDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D963B7-F459-49A5-960E-74EE6CF3EDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80015C38-927D-48CB-99BA-A95BEBF782D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80015C38-927D-48CB-99BA-A95BEBF782D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80015C38-927D-48CB-99BA-A95BEBF782D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80015C38-927D-48CB-99BA-A95BEBF782D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
